@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+}
+/* Tipos de tamaños (px, rem, em, vw , vh y %)  */
+.container > h1 {
+  width: 100%;
+  background-color: #00a5a27d;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.container p {
+  width: 100%;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 3px rgb(253, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.img {
+  width: 300px;
+  padding: 1rem;
+  margin: auto;
+}
+.img img {
+  width: 100%;
+  /* border: 5px solid black; */
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 50%;
+}
